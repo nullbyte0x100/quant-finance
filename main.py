@@ -3,8 +3,6 @@ from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 import os
 from dotenv import  load_dotenv
-# api_key = "PKT1UMLSH0XD9AIAV2PB"
-# secret_key = "SY7JnhILOowabWQhUwSLYXVOwn0esyxvqPAxAXBP"
 load_dotenv()
 print(os.environ["api_key"])
 # use paper for trading
